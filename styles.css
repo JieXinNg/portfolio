@@ -3,3 +3,20 @@ body {
     background-color: rgb(255, 218, 224);
     /* text-align: center; */
 }
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: rgb(22, 25, 26);
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
