@@ -36,9 +36,27 @@ div.page-divider {
 	width:451px;
 	height:406px;
 	margin:10px;
+}
 
+div.page-divider-long
+{
+	float: middle;
+	width:1900px;
+	height:850px;
+	margin-left:30px;
+}
+div.mainContent
+{
+	margin-left:700px;
 }
 
 header{
-	margin-top:70px;
+	margin-top:80px;
 }
+
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
