@@ -7,24 +7,26 @@
 .nav-area {
 	float: right;
 	list-style: none;
-	margin-top: 200px;
-    margin-right: 200px;
+	margin-top: 25vh;
+	margin-right: 10vw;
 }
+
 .nav-area li {
 	display: inline-block;
 }
+
 .nav-area li a {
 	color: rgb(8, 38, 48);
 	padding: 5px 20px;
-    font-family: Arial;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    display: inline-block;
-    line-height: 36px;
+	font-family: Arial;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	display: inline-block;
+	line-height: 36px;
 }
 
 .nav-area li a:hover {
@@ -38,58 +40,56 @@ section {
 
 div.page-divider {
 	float: left;
-	width:451px;
-	height:406px;
-	margin:10px;
+	width: 23vw;
+	height: 20.705vw;
+	margin-left: 1.2vw;
+	margin-bottom: 1.6vw;
 }
 
-div.page-divider-long
-{
+div.page-divider-long {
 	float: middle;
-	width:1900px;
-	height:850px;
-	margin-left:30px;
+	width: 90vw;
+	height: 40.3vw;
+	margin-left: 5vw;
 }
 
-div.dividerColumn
-{
+div.dividerColumn {
 	float: left;
 	width: 10%;
 }
 
-div.mainContent
-{
+div.mainContent {
 	float: left;
 	width: 35%;
-	margin-top:50px;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 18px;
-    text-decoration: none;
-    letter-spacing: 1px;
+	margin-top: 50px;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 18px;
+	text-decoration: none;
+	letter-spacing: 1px;
 	color: rgb(63, 63, 63);
 
-	margin-left: 130px;
+	margin-left: 12vw;
 	/* margin-right: 105px; */
 
 }
 
-div.mainText
-{
+div.mainText {
 	font-family: Josefin Sans;
-    font-weight: 50;
-    font-style: normal;
-    font-size: 18px;
-    text-decoration: none;
-    letter-spacing: 1px;
+	font-weight: 50;
+	font-style: normal;
+	font-size: 18px;
+	text-decoration: none;
+	letter-spacing: 1px;
 	color: rgb(143, 143, 143);
 	line-height: 1.8em;
-	
+	margin-bottom: 20vh;
+
 }
 
-header{
-	margin-top:100px;
-	padding-left:350px;
+header {
+	margin-top: 10vh;
+	padding-left: 20vw;
 }
 
 
@@ -97,10 +97,9 @@ img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  }
+}
 
-  div.left
-  {
+div.left {
 	float: left;
 	width: 40%;
-  }
+}
